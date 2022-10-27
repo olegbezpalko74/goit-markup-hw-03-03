@@ -211,7 +211,8 @@ background-color: var(--hero-bg-color)
 }
 .team-list .text {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
 
 
     color: var(--primary-text-color);
@@ -231,8 +232,12 @@ background-color: var(--hero-bg-color)
 
 /* contacts */
 .contacts {
+    margin-bottom: 0;
+
+
     list-style: none;
     font-style: normal;
+
 }
 
 .contacts .link{
