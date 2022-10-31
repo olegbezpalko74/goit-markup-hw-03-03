@@ -46,7 +46,7 @@ h5,
 h6,
 p,
 ul {
-    padding: 0; 
+    margin: 0;
 }
 img {
     display: block;
@@ -83,6 +83,9 @@ padding: 94px 0;
 .link {
     text-decoration: none;
     color: inherit;
+}
+header {
+    border-bottom: 5px solid #ECECEC;
 }
 
 header .container {
@@ -230,7 +233,6 @@ header .container {
 }
 .feature-list .title {
     margin-bottom: 10px;
-    margin-top: 0;
 
 
     font-size: 14px;
@@ -355,7 +357,6 @@ header .container {
 }
 
 .list-filter .filter {
-    background: var(--secondory-bg-color);
     margin-right: 8px;     
 }
 .list-filter .filter:last-child {
@@ -365,7 +366,6 @@ header .container {
 
 
 .list .button {
-    background: var(--secondory-bg-color);
     border-radius: 4px;
     border: none;
     padding: 6px 22px;
@@ -401,20 +401,13 @@ header .container {
 }
 .gallery .item {
     width: 370px;
-    font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height, or 200% */
-
-letter-spacing: 0.06em;
-
-color: #212121;
 }
 .gallery .item:nth-child(3n) {
     margin-right: 0;
 }
 .gallery .project {
     padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 
